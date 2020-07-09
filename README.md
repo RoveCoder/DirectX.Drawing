@@ -1,5 +1,5 @@
 # DirectX.Drawing
-DirectX 11 Drawing tutorial for http://rovecoder.com/DirectX/Initializing
+DirectX 11 Drawing tutorial for http://rovecoder.com/DirectX/Drawing
 
 ## Installation
 1. To install, clone the repository to a directory
