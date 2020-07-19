@@ -20,7 +20,7 @@ private:
 	DirectX::XMMATRIX m_Projection;
 	DirectX::XMFLOAT3 m_Position;
 
-	float m_FOV = 60.0;
+	float m_FOV = 50.0;
 
 	float m_Pitch = 30.0f;
 	float m_Yaw = 0.0f;

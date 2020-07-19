@@ -8,11 +8,10 @@ Shader::Shader(Renderer* renderer) : m_Renderer(renderer)
 
 bool Shader::Create()
 {
-	std::string directory = "D:\\Sources\\RoveCoder Repositories\\DirectX.Drawing\\bin\\DirectX.Drawing\\Debug-x64\\";
-	if (!CreateVertexShader(directory + "VertexShader.cso"))
+	if (!CreateVertexShader("VertexShader.cso"))
 		return false;
 
-	if (!CreatePixelShader(directory + "PixelShader.cso"))
+	if (!CreatePixelShader("PixelShader.cso"))
 		return false;
 
 	return true;
